@@ -1,0 +1,15 @@
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+pillow
+opencv-python-headless
+tqdm
+openpyxl
+ipykernel
+transformers[torch]
+torch
+torchvision
+xgboost
