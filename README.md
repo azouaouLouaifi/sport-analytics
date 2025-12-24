@@ -53,8 +53,14 @@ Votre dossier `data/` doit contenir a la fin :
 - p05/
 - participant-overview.xlsx
 - test_dataset.csv
+### 3. Installation du Modèle (Hugging Face)
 
-### 3. Lancer l'environnement
+Pour que l'analyse d'images fonctionne hors-ligne, le fichier binaire du modèle est requis.
+
+1. Téléchargez le fichier `pytorch_model.bin` depuis ce lien : https://huggingface.co/nateraw/food/tree/main
+2. Placez ce fichier dans le dossier `my_local_model/` situé à la racine du projet.
+
+### 4. Lancer l'environnement
 
 Ouvrez votre terminal a la racine du projet.
 
