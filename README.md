@@ -5,7 +5,7 @@ Ce projet propose une solution complete pour l'analyse de donnees de lifelogging
 Le projet est entierement conteneurise via Docker pour garantir une execution identique et sans friction sur Windows, macOS et Linux.
 
 ## Architecture du Projet
-
+```
 .
 ├── data/                  # Dossier des donnees
 │   ├── p01/               # Donnees du participant 01 (A TELECHARGER)
@@ -24,7 +24,7 @@ Le projet est entierement conteneurise via Docker pour garantir une execution id
 ├── Dockerfile             # Configuration Docker
 ├── requirements.txt       # Dependances Python
 └── README.md              # Documentation du projet
-
+```
 ## Prerequis
 
 * Docker Desktop (ou Docker Engine sur Linux)
@@ -36,7 +36,7 @@ Le projet est entierement conteneurise via Docker pour garantir une execution id
 
 Recuperez le code source sur votre machine :
 
-git clone <URL_DE_VOTRE_REPO_GIT>
+git clone https://github.com/azouaouLouaifi/sport-analytics.git
 cd <NOM_DU_DOSSIER>
 
 ### 2. Ajout des donnees (Etape Critique)
